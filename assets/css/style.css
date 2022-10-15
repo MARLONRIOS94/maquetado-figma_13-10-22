@@ -21,13 +21,13 @@
 body{
     background: var(--black-color);
     font-family: var(--font-barlow);
-    /* height: 100vh; */
+    height: 100vh;
 }
 
 .subject{
     position: absolute;
     width: 1399.41px;
-    height: 987px;
+    height: 100vh;
     left: -3px;
     top: -1px;
 }
@@ -183,25 +183,25 @@ nav a {
     padding-top: 8px;
 }
 
-.shoes img{
+.shoes{
     position: absolute;
     width: 604.92px;
     height: 398.38px;
     left: 648.81px;
-    top: 469.84px;
+    top: 209.84px;
 }
-
 
 .elipse-1{
     position: absolute;
     width: 146.15px;
     height: 146.15px;
     left: 1250.26px;
-    top: 435.69px;
+    top: 415.69px;
     background: radial-gradient(78.19% 78.19% at 10.4% 32.21%, #57595B 0%, rgba(0, 0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
     linear-gradient(0deg, rgba(125, 125, 125, 0.15), rgba(125, 125, 125, 0.15));
     border-radius: 50%;
-    backdrop-filter: blur(15.501px);
+    backdrop-filter: blur(10.501px);
+    z-index: 1;
 }
 
 .elipse-2{
@@ -209,16 +209,37 @@ nav a {
     width: 146.15px;
     height: 146.15px;
     left: 988px;
-    top: 633px;
+    top: 617px;
     background: radial-gradient(75.15% 75.15% at 31.21% 0%, #57595B 0%, rgba(0, 0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
     linear-gradient(0deg, rgba(125, 125, 125, 0.15), rgba(125, 125, 125, 0.15));
     border-radius: 50%;
-    backdrop-filter: blur(15.501px);
+    backdrop-filter: blur(10.501px);
     z-index: 1;
 }
 
 .elipse-3{
+    position: absolute;
+    width: 278.13px;
+    height: 262.19px;
+    left: 864.83px;
+    top: 270.93px;
+    background: radial-gradient(40.61% 43.79% at 85.51% 81.59%, #57595B 0%, rgba(0, 0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    linear-gradient(0deg, rgba(125, 125, 125, 0.15), rgba(125, 125, 125, 0.15));
+    border-radius: 50%;
+    backdrop-filter: blur(15.501px);
+    z-index: -1;
+    }
 
+
+.shadow{
+    position: absolute;
+    width: 563px;
+    height: 51px;
+    left: 825px;
+    top: 812px;
+    background: linear-gradient(270deg, rgba(70, 70, 70, 0.5) 0%, #000000 52.4%, #000000 100%);
+    filter: blur(16.3868px);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 
