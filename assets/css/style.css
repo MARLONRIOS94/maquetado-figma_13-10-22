@@ -21,7 +21,7 @@
 body{
     background: var(--black-color);
     font-family: var(--font-barlow);
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .subject{
@@ -89,25 +89,19 @@ nav a {
     width: 659px;
     left: 539px;
     top: 68px;
-    display:flex;
-    justify-content:space-around;
-    /* background-color:aqua;  */
-}
 
-.menu ul a{
-    position: absolute;
-    width: 241px;
-    height: 55px;
-    left: 539px;
-    top: 68px;
-    font-family: var(--font-barlow);
+    font-size: 15px;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
     line-height: 18px;
-    display: flex;
-    align-items: flex-start;
+
+    display:flex;
+    justify-content:space-around;
+    text-transform: uppercase;
+    /* background-color:aqua; */
 }
+
 
 .title h1{
     position: absolute;
@@ -136,5 +130,97 @@ nav a {
     letter-spacing: 0.15em;
     color:var(--jordan-air-max)
 }
+
+.price p{
+    position: absolute;
+    width: 638px;
+    height: 68px;
+    left: 200px;
+    top: 494px;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 54px;
+}
+
+.description p{
+    position: absolute;
+    width: 542px;
+    height: 76px;
+    left: 190px;
+    top: 583px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    opacity: 0.8;
+}
+
+.cart{
+    position: absolute;
+    width: 120px;
+    height: 38px;
+    left: 200px;
+    top: 706px;
+    background:var(--grey-lateral-color);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.cart p{
+    height: 98px;
+    left: 217px;
+    top: 713px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color:var(--black-color);
+    padding-top: 8px;
+}
+
+.shoes img{
+    position: absolute;
+    width: 604.92px;
+    height: 398.38px;
+    left: 648.81px;
+    top: 469.84px;
+}
+
+
+.elipse-1{
+    position: absolute;
+    width: 146.15px;
+    height: 146.15px;
+    left: 1250.26px;
+    top: 435.69px;
+    background: radial-gradient(78.19% 78.19% at 10.4% 32.21%, #57595B 0%, rgba(0, 0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    linear-gradient(0deg, rgba(125, 125, 125, 0.15), rgba(125, 125, 125, 0.15));
+    border-radius: 50%;
+    backdrop-filter: blur(15.501px);
+}
+
+.elipse-2{
+    position: absolute;
+    width: 146.15px;
+    height: 146.15px;
+    left: 988px;
+    top: 633px;
+    background: radial-gradient(75.15% 75.15% at 31.21% 0%, #57595B 0%, rgba(0, 0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    linear-gradient(0deg, rgba(125, 125, 125, 0.15), rgba(125, 125, 125, 0.15));
+    border-radius: 50%;
+    backdrop-filter: blur(15.501px);
+    z-index: 1;
+}
+
+.elipse-3{
+
+}
+
+
 
 
